@@ -15,8 +15,8 @@ set -euo pipefail
 CURR_TTY="/dev/tty1"
 MPV_SOCKET="/tmp/mpvsocket"
 SCRIPT_DIR="$(dirname "$(readlink -f "$0")")"
-JSON_URL="https://raw.githubusercontent.com/yeraysanchezbaudel-cpu/ArkTV/refs/heads/main/channels/channels.json"
-JSON_FILE="/home/ark/channels.json"  # Temporary file for channels list
+JSON_URL="https://raw.githubusercontent.com/AeolusUX/ArkTV/refs/heads/main/channels/channels.json"
+JSON_FILE="/tmp/channels.json"  # Temporary file for channels list
 
 # --- Functions ---
 
